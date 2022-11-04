@@ -1,0 +1,637 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ #navbar {
+  
+  border-bottom: 1px solid white;
+  text-align: center;
+  color: gray;
+  padding: 30px;
+    /* background-color: transparent; */
+    position: fixed;
+    /* top: -50px; */
+    top: 0;
+    width: 100%;
+    display: flex; 
+    transition: 1s;
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;  
+    z-index: 10;
+  }
+  ion-icon
+  {
+    z-index: -10;
+  }
+  /* #header {
+    background-color: #f1f1f1;
+    padding: 50px 10px;
+    color: black;
+    text-align: center;
+    font-size: 90px; 
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.5s;
+  } */
+  .stated
+  {
+    margin-left: 20%;
+  }
+  .right{
+    margin-left: 30%;
+    display: flex;
+    margin-top: 5px;
+    gap: 15px;
+    
+  }
+  .right a{
+    
+    color: white;
+    text-decoration:none;
+  }
+  .right a:hover {
+color: red;
+  }
+
+  #navbar h2{
+    color: white;
+    text-decoration: none;
+  }
+  h1{
+    color: white;
+  }
+  h2{
+    color: white;
+  }
+  .right
+  {
+    display: flexbox;
+   justify-content:space-between;
+   color: black;
+  } 
+  .head
+  {
+    background-image:  linear-gradient(rgba(118, 112, 112, 0.618) , rgba(0,0,0,0.7)) , url(../WebsiteRemake/img/mcrib.avif);
+    background-repeat: no-repeat;
+ background-size: cover;
+     width: 100%;
+     height: 929px;
+  }
+  .mddltxt
+  {
+    color: white;
+    text-align: center;
+    display: flexbox;
+    width: 500px;
+    position: absolute;
+   margin: 0 auto;
+    top: 50%;
+    left: 38%;
+  }
+ 
+
+
+
+
+
+/* how it works */
+
+
+
+.how
+{
+  height: 300px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+
+}
+.howhead
+{
+  color: #f69314;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.howitem
+{
+ text-align: center;
+  display: block;
+
+}
+#io
+{
+color: #f69314;
+font-size: 50px;
+}
+.howcont
+{
+ 
+  display: flex;
+  justify-content: space-around;
+}
+
+.howitem h2
+{
+  color: #000;
+  font-size: large;
+  
+}
+
+
+
+
+/* .slideshow */
+.left
+{
+  margin-top: 60px;
+  color:#f69314 ;
+  font-size: 40px;
+  display: inline;
+}
+.buttons
+{
+  margin-top: 60px;
+  font-size: 30px;
+  display: inline;
+  margin-left: 80%;
+
+}
+
+#sld
+{
+height: 200px;
+width: 200px;
+}
+.properties
+{
+  height: 700px;
+  
+  max-width: 1200px;
+  align-self: center;
+  margin: 0 auto;
+}
+.prophead
+{
+  display:flexbox;
+  margin-bottom: 100px;
+}
+.propcont
+{
+  display: flex;
+  justify-content: space-between;
+}
+#botbut
+{
+   margin-top: 5%;
+   margin-left: 38%;
+   padding: 10px 30px;
+   background-color: #f69314;
+   border-radius: 25px;
+   font-size: 22px;
+   color: white;
+   border: none;
+  
+}
+.propitem
+{
+  line-height: 28px;
+}
+.propitem h2
+{
+  color: black;
+}
+.propitem p
+{
+  color: gray;
+}
+
+#me
+{
+  font-size: larger;
+  color: gray;
+  text-decoration: none;
+
+}
+
+#me:hover{
+  color: white;
+}
+
+/* agents */
+
+#agents
+{
+  margin-left: 27%;
+}
+#agents table
+{
+  border-spacing: 40px;
+}
+.mcskins
+{
+  
+  background-color: rgba(128, 128, 128, 0.537);
+  margin: 1000px;
+}
+
+.mcskins img
+{
+  height: 200px;
+  width: 200px;
+}
+
+.mcskins h2
+{
+  color: black;
+}
+
+
+.agenthead h1
+{
+  color: #f69314;
+}
+
+.agenthead
+{
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BEST REAL ESTATE */
+
+.best
+{
+background-color: white;
+height: 1000px;
+display: flexbox;
+}
+
+#textbest
+{
+  color: #f69314;
+}
+#topcraft
+{
+  margin-top: 75px;
+  margin-left: 100px;
+  height: 850px;
+  width: 750px;
+  float: left;
+}
+#weighted
+{
+  color: gray;
+  font-weight: 400;
+  font-size: x-large;
+}
+.textside
+{
+  color: gray;
+  line-height: 30px;
+float: left;
+ width: 400px;
+ height: 700px;
+ margin-top: 100px;
+ margin-left: 120px;
+
+}
+.sendmsgt
+{
+  font-size: 15px;
+  color: white;
+  background-color: #f69314;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+}
+#minecrafthouse
+{
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services */
+.services
+{
+  height: 700px;
+  background-color: whitesmoke;
+  align-content: center;
+  color: gray;
+}
+.headserv
+{
+ 
+  color: orange;
+  text-align: center;
+}
+
+#serv
+{
+  
+  line-height: 28px;
+  padding-top: 100px;
+ margin: 0 auto;
+}
+
+#serv a
+{
+  color: #f69314;
+}
+.i
+{
+  width: 270px;
+  padding-right: 70px ;
+  padding-bottom: 25px;
+}
+
+#ion
+{
+  color: #f69314;
+ font-size: 250%;
+ float: left;
+margin-bottom: 160px;
+ margin-right: 18px;
+}
+
+
+/* slideshow */
+.clients
+{
+  text-align: center;
+}
+.clients h1
+{
+color: #f69314;
+margin-top: 5%;
+margin-bottom: 5%;
+
+}
+.slideshow
+{
+  height: 400px;
+  background-color: white;
+}
+#guy
+{
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+}
+.allguy
+{
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 20px;
+  color: gray;
+width: 400px;
+transition: 1s;
+}
+.allguy p
+{
+  margin-bottom: 4%;
+}
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  transition: 1s;
+}
+.prev
+{
+  float: left;
+  margin-left: 20%;
+}
+.next
+{
+  float: right;
+  margin-right: 20%;
+}
+
+
+/* /contact/ */
+.contact
+{
+  background-color: whitesmoke;
+height: 1000px;
+text-align: center;
+}
+.contact h1{
+  color: #f69314;
+  padding: 30px;
+  margin: 0 auto;
+}
+.form
+{
+  text-align: start;
+  width: 500px;
+  height: 700px;
+  background-color: white;
+  padding: 30px;
+  line-height: 40px;
+  
+}
+.concon
+{
+  display: flex;
+margin-left: 400px;
+margin-right: 400px;
+}
+.info
+{
+  text-align: start;
+
+  margin-left: 100px;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  line-height: 40px;
+  padding: 30px;
+  color: gray;
+}
+.bolder
+{
+  font-weight: 800;
+}
+.ul{
+  color: #f69314;
+}
+.ul:hover{
+  text-decoration: underline;
+}
+#contact
+{
+  color: black;
+}
+#name
+{
+  width: 500px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+#message
+{
+  height: 200px;
+  width: 500px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+.sendmsg
+{
+  font-size: 20px;
+  color: white;
+  background-color: #f69314;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* /footer/ */
+  footer
+  {
+     background-color: rgb(63, 62, 62) ;
+    height: 600px;
+    color: gray;
+   
+  }
+  .footcon
+  {
+    padding-top: 100PX;
+    padding-bottom: 100PX;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .ab
+  {
+    width: 300px;
+  }
+  .quicklinkss
+  {
+    line-height: 40px;
+  }
+  .iconcon
+  {
+    display: flex;
+    gap: 20px;
+    color: gray;
+  }
+  .sicon:hover
+  {
+    color: white;
+  }
+  .quicklinkss
+  {
+    list-style: none;
+  }
+.quicklinkss a
+{
+  
+  text-decoration: none;
+  color: gray;
+  transition: 1s;
+}
+.quicklinkss a:hover{
+  color: white;
+}
+
+.pp{
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+}
+  .inputt
+  {
+    background-color: transparent;
+    border-top:  2px solid gray;
+    border-left:  2px solid gray;
+    border-bottom:  2px solid gray;
+    border-right:none ;
+
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 15px;
+    padding: 11PX;
+  }
+  footer button.right-rounded {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #f69314;
+    font-size: 15px;
+    color: #000;
+    padding: 7px 30px 9px;
+    line-height: 1.5;
+    border-top:  2px solid gray;
+    border-right:  2px solid gray;
+    border-bottom:  2px solid gray;
+   border-left: none;
+    position: absolute;
+    right: 1;
+}
